@@ -43,7 +43,7 @@ class Puppet extends Character {
  }
 
  rightThing(){
-   return `Hello ${this.name}, I'm ${this.conscience}! I'm here to make sure you're being a good boy!}`;
+   return `Hello ${this.name}, I'm ${this.conscience} , I'm here to make sure you're being a good boy!}`;
  }
 }
 
@@ -66,27 +66,7 @@ And I know it's true that visions are seldom all they seem But if I know you, I 
   }
 }
 
-
 // End of Princess
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // Objects
@@ -101,8 +81,8 @@ pet : 'Pluto'
 });
 
 
-const pinnochio = new Puppet ({
-  name : 'Pinnochio',
+const pinocchio = new Puppet ({
+  name : 'Pinocchio',
   location: 'Italy',
   gender : 'Male',
   catchPhrase: 'I am a real boy!',
